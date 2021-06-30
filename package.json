@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "ts-node pushPushAdd.ts"
+    "run": "ts-node pushPushAdd.ts",
+    "test": "ts-node run-solidity-contract.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@ethereumjs/vm": "^5.4.1",
+    "@ethersproject/abi": "^5.4.0",
     "@types/node": "^15.12.5",
     "ethereum-common": "github:ethereumjs/common",
     "ethereumjs-util": "^7.0.10",
+    "solc": "^0.8.6",
     "typescript": "^4.3.4"
   },
   "devDependencies": {
