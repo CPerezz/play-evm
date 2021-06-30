@@ -18,7 +18,7 @@ If you want the full trace stored inside a file, dump stdout to a file:
 This will require you to have installed `solc` and `node.js`.
 
 The trace actually looks like this for a single step of the execution of the `push_pop()` fn:
-```json
+```
 {
   pc: 31,
   gasLeft: <BN: 1e31ea>,
